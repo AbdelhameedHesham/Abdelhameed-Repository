@@ -1,0 +1,16 @@
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+$ git config --global core.editor emacs
+$ git config --list
+user.name=John Doe
+user.email=johndoe@example.com
+color.status=auto
+color.branch=auto
+color.interactive=auto
+color.diff=auto
+$ git config user.name
+John Doe
+$ git help <verb>
+$ git <verb> --help
+$ man git-<verb>
+$ git help config
