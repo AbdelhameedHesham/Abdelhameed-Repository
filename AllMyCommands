@@ -1,0 +1,28 @@
+$ git init
+$ cd E:\SEProject\test-repo
+$ git add .
+$ git commit -m "add 3 files"
+$ git push origin master
+
+
+$ git rm "file 3 SE"
+$ git commit -m "remove file 3 SE"
+$ git push origin master
+
+$ git rm "file 3.txt"
+$ git commit -m "remove file 3.txt"
+$ git push origin master
+
+$ git rev-list -n 1 HEAD
+88a70428aaa093ddf9f64739d7e4eb580ee32cdc
+
+$ git checkout 88a70428aaa093ddf9f64739d7e4eb580ee32cdc
+
+$ git checkout -b readme
+$ git add .
+$ git push --all
+ 
+$ git checkout master
+$ git merge readme
+$ git push --all
+
